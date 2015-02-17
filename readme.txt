@@ -8,7 +8,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYMPLJ69H9EM6
 
-A plugin for adding sticky notes to the widget area!
+A plugin for adding sticky notes on the widget area!
 
 == Description ==
 
