@@ -1,0 +1,186 @@
+.snw-box{
+	margin:5px;
+	background-image: url("images/snw-footer-left.png"),url("images/snw-footer-right.png");
+	background-repeat: no-repeat,no-repeat;
+    background-position: left bottom,right bottom;
+	padding:2px;
+	padding-bottom:10px;
+}
+
+.snw-box .taping{
+	position:relative;
+	float:right;
+}
+
+.snw-box .paper{
+	padding:15px;
+}
+
+.snw-box .title{
+	font-size:30px;
+	font-weight:bold;
+}
+
+.snw-box .texts{
+	font-size:20px;
+}
+
+/* font-1 */
+.font-1{
+	font-family: 'Shadows Into Light', cursive;
+}
+/* font-2 */
+.font-2{
+	font-family: 'Gloria Hallelujah', cursive
+}
+/* font-3 */
+.font-3{
+	font-family: 'Indie Flower', cursive;
+}
+/* font-4 */
+.font-4{
+	font-family: 'Coming Soon', cursive;
+}
+
+
+/* horizontal-vertical */
+
+.horizontal-vertical .paper{
+	background-image:url("images/snw-horizontal-vertical.png");
+	background-repeat: repeat;
+	background-position:center;
+}
+
+/* paper-1 */
+
+.paper-1 .paper{
+	background-image:url("images/snw-paper-1.png");
+	background-repeat: repeat;
+	background-position:center;
+}
+
+/* paper-2 */
+
+.paper-2 .paper{
+	background-image:url("images/snw-paper-2.png");
+	background-repeat: repeat;
+	background-position:center;
+}
+
+/* paper-3 */
+
+.paper-3 .paper{
+	background-image:url("images/snw-paper-3.png");
+	background-repeat: repeat;
+	background-position:center;
+}
+
+/* paper-4 */
+
+.paper-4 .paper{
+	background-image:url("images/snw-paper-4.png");
+	background-repeat: repeat;
+	background-position:center;
+}
+
+/* texture */
+
+.texture .paper{
+	background-image:url("images/snw-texture.png");
+	background-repeat: repeat;
+	background-position:center;
+}
+
+
+/* tape-1 */
+
+.snw-box .tape-1{
+	background-image:url("images/snw-tape-1.png");
+	background-repeat:no-repeat;
+	top:-25px;
+	right:-20px;
+	height:65px;
+	width:55px;
+}
+
+/* tape-2 */
+
+.snw-box .tape-2{
+	background-image:url("images/snw-tape-2.png");
+	background-repeat:no-repeat;
+	top:-25px;
+	right:-15px;
+	height:65px;
+	width:55px;
+}
+
+/* yellow-tape */
+
+.snw-box .yellow-tape{
+	background-image:url("images/snw-yellow-tape.png");
+	background-repeat:no-repeat;
+	top:-25px;
+	right:-20px;
+	height:65px;
+	width:55px;
+}
+
+.snw-box .pins{
+	background-repeat:no-repeat;
+	top:-15px;
+	right:-15px;
+	height:65px;
+	width:55px;
+}
+
+/* pin-blue */
+
+.snw-box .pin-blue{
+	background-image:url("images/snw-pin-blue.png");
+}
+
+/* pin-red */
+
+.snw-box .pin-red{
+	background-image:url("images/snw-pin-red.png");
+}
+
+/* pin-green */
+
+.snw-box .pin-green{
+	background-image:url("images/snw-pin-green.png");
+}
+
+/* pin-white */
+
+.snw-box .pin-yellow{
+	background-image:url("images/snw-pin-yellow.png");
+}
+
+/* pin-black */
+
+.snw-box .pin-black{
+	background-image:url("images/snw-pin-black.png");
+}
+
+/* safety-pin */
+
+.snw-box .safety-pin{
+	background-image:url("images/snw-safety-pin.png");
+	background-repeat:no-repeat;
+	top:-15px;
+	right:-15px;
+	height:65px;
+	width:120px;
+}
+
+/* paper-clip */
+
+.snw-box .paper-clip{
+	background-image:url("images/snw-paper-clip.png");
+	background-repeat:no-repeat;
+	top:-10px;
+	right:5px;
+	height:85px;
+	width:55px;
+}
