@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
-  $(".color").wpColorPicker();  
+  $(".snw-color-picker").wpColorPicker();  
   $(document).ajaxSuccess(function(e, xhr, settings) {
-    $(".color").wpColorPicker();
+    $(".snw-color-picker").wpColorPicker();
   });
 });

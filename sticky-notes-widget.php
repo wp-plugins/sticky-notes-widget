@@ -4,7 +4,7 @@
 	Plugin URI: http://www.superbcodes.com/
 	Description: Using this widget users can add beautiful notes to the widget aria of their WordPress site.Different styles of background,attacher and fonts are available.User pick color by colorpicker and define the margin of the widget.
 	Tags: texts,widgets,sticky,notes,paper,pins,tapes,sidebar
-	Version: 1.0
+	Version: 1.0.1
 	Author:	Nazmul Hossain Nihal
 	Author URI: http://www.SuperbCodes.com/
 	License: GPLv2 or later
@@ -39,10 +39,10 @@
 
 				
 				<label for="<?php echo $this->get_field_id( 'text_color' ); ?>"><?php _e( 'Text Color:' ); ?></label><br /> 
-				<input class="widefat color" id="<?php echo $this->get_field_id( 'text_color' ); ?>" name="<?php echo $this->get_field_name( 'text_color' ); ?>" type="text" value="<?php echo esc_attr( $text_color ); ?>">
+				<input class="widefat snw-color-picker" id="<?php echo $this->get_field_id( 'text_color' ); ?>" name="<?php echo $this->get_field_name( 'text_color' ); ?>" type="text" value="<?php echo esc_attr( $text_color ); ?>">
 				<br /> 
 				<label for="<?php echo $this->get_field_id( 'background_color' ); ?>"><?php _e( 'Background Color:' ); ?></label><br /> 
-				<input class="widefat color" id="<?php echo $this->get_field_id( 'background_color' ); ?>" name="<?php echo $this->get_field_name( 'background_color' ); ?>" type="text" value="<?php echo esc_attr( $background_color ); ?>">
+				<input class="widefat snw-color-picker" id="<?php echo $this->get_field_id( 'background_color' ); ?>" name="<?php echo $this->get_field_name( 'background_color' ); ?>" type="text" value="<?php echo esc_attr( $background_color ); ?>">
 				<br /> 
 				<label for="<?php echo $this->get_field_id( 'background_style' ); ?>"><?php _e( 'Background Style:' ); ?></label> 
 				<select class="widefat" id="<?php echo $this->get_field_id( 'background_style' ); ?>" name="<?php echo $this->get_field_name( 'background_style' ); ?>">
